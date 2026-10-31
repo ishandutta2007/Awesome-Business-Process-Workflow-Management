@@ -1,225 +1,158 @@
-# Awesome-Business-Process-Workflow-Management
+# Awesome Business Process & Workflow Management 🚀
 
-# Awesome-Business-Process-Workflow-Management
+<div align="center">
 
-**Top Business Process Workflow Management (Opensource) 🌟 Star if you like it! 🌟**
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Business Process & Workflow Management Banner" width="100%" />
+</p>
 
+# ⚙️ Awesome Business Process & Workflow Management
 
+[![Awesome](https://img.shields.io/badge/Awesome-%E2%9C%94-bluevillet?style=flat-square&logo=github)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/jc4xtF58Ve)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ishandutta2007/Awesome-Business-Process-Workflow-Management/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-Business-Process-Workflow-Management/graphs/commit-activity)
+[![GitHub followers](https://img.shields.io/github/followers/ishandutta2007?label=Follow)](https://github.com/ishandutta2007)
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+**Curated index of enterprise SaaS workflow suites, BPMN 2.0 orchestration engines, low-code process builders, and self-hosted approval platforms.**
 
-*Focused on BPMN Engines, Visual Workflow Builders, Approval Automation & Self-Hosted Process Platforms*
+*Model, automate, orchestrate, and audit end-to-end human and system business processes.*
 
-**Last updated: October 2026**
+🌟 **Star this repository if you find it helpful!** 🌟
 
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Business Process & Workflow Management**. These tools enable organizations to model, automate, and monitor business processes—from fully managed low-code platforms with visual builders and AI agents to self-hosted BPMN engines that give teams complete control over their process logic and execution infrastructure.
-
-
-
-**Examples** include Camunda, Nintex, Kissflow, Pipefy, Process Street, ServiceNow Workflow, Microsoft Power Automate, Jira Workflow, BP Logix, and Fluix (the category leaders in commercial space).
-
-
-
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosted BPM, workflow automation, and open process infrastructure. **Critical note**: The open-source BPM landscape is mature and genuinely competitive—**Camunda 7** and its fork **CIB seven** dominate enterprise BPMN execution, **Flowable** offers the most modern alternative, and **Bonita** provides a low-code approach. No open-source project matches Nintex's SharePoint-native workflow depth or ServiceNow's ITSM integration, but for core process automation, the open-source engines are production-proven at scale.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Camunda](https://camunda.com/)**
-
-  **Process orchestration platform** with BPMN, DMN, and CMMN engines. Camunda 8 (Zeebe) is cloud-native with gRPC and Kubernetes support; Camunda 7 Community Edition remains available under Apache 2.0/MIT but is in maintenance . **Pricing**: Development (self-managed) free; Production self-managed requires Enterprise license; SaaS offers 30-day trial . **Free tier**: Free for development/non-production self-managed use. **Best for**: developer-centric teams wanting the most widely adopted BPM engine with strong microservice orchestration—**note**: Camunda 8 uses SSPL license with SaaS resale restrictions .
-
-
-
-- **[Nintex](https://www.nintex.com/)**
-
-  **Workflow automation and process management** with document generation and RPA. **Pricing**: Quote-only; observed annual contracts range from $15,000–$50,000 for small deployments to $200,000+ for enterprise . **Free tier**: None. **Best for**: organizations heavily invested in Microsoft/SharePoint ecosystems.
-
-
-
-- **[Kissflow](https://kissflow.com/)**
-
-  **No-code/low-code workflow and process platform**. **Pricing**: Basic from $2,500/month; Enterprise custom with AI Copilot . **Free tier**: None; trial available. **Best for**: business teams wanting self-service process automation without developer involvement.
-
-
-
-- **[Pipefy](https://www.pipefy.com/)**
-
-  **Workflow management platform** with visual process builder and automation. **Pricing**: Quote-only. **Free tier**: Limited free tier available. **Best for**: operations and HR teams wanting a user-friendly workflow builder without BPMN complexity.
-
-
-
-- **[Process Street](https://www.process.st/)**
-
-  **Checklist and workflow automation** platform for recurring processes. **Pricing**: Tiered per-user pricing. **Free tier**: Limited free tier. **Best for**: teams needing simple, repeatable checklist-driven workflows.
-
-
-
-- **[ServiceNow Workflow](https://www.servicenow.com/)**
-
-  **Enterprise workflow automation** within the ServiceNow platform, including Flow Designer. **Pricing**: Quote-only; bundled with ServiceNow subscriptions. **Free tier**: None. **Best for**: ServiceNow customers wanting workflow automation tightly integrated with ITSM and enterprise data.
-
-
-
-- **[Microsoft Power Automate](https://powerautomate.microsoft.com/)**
-
-  **Workflow automation** across Microsoft 365, Dynamics 365, and 1,000+ connectors. **Pricing**: Per-user plans from ~$15/user/month; flow-based pricing available. **Free tier**: Limited included with Microsoft 365. **Best for**: Microsoft-centric organizations wanting automation within their existing ecosystem.
-
-
-
-- **[Jira Workflow](https://www.atlassian.com/software/jira)**
-
-  **Workflow engine within Jira** for issue tracking and approval processes. **Pricing**: Included with Jira plans; advanced features require Premium/Enterprise. **Free tier**: Limited on Jira Free. **Best for**: software teams wanting workflow states and transitions within their issue tracker—**not** a general-purpose BPM platform.
-
-
-
-- **[BP Logix](https://www.bplogix.com/)**
-
-  **BPM and workflow automation** platform with process timeline modeling. **Pricing**: Quote-only. **Free tier**: None. **Best for**: regulated industries needing process compliance and audit trails.
-
-
-
-- **[Fluix](https://fluix.io/)**
-
-  **Workflow automation for field teams** with mobile forms and document workflows. **Pricing**: Quote-only; per-user. **Free tier**: Trial available. **Best for**: field service and construction teams needing mobile-first process automation.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[CIB seven](https://github.com/cibseven/cibseven)**
-
-  **Camunda 7 fork providing long-term open-source BPMN execution** (Apache 2.0) — **the most important open-source BPM development of 2025–2026** for teams invested in Camunda 7. Since Camunda discontinued manufacturer support for the Camunda 7 Community Edition, **CIB seven fills the gap** with guaranteed maintenance beyond 2025 . **Features**: **100% Camunda 7 compatible**—drop-in replacement without code changes; BPMN 2.0, DMN 1.3, and CMMN engines; modernized web apps (Cockpit for monitoring, Tasklist for task management, Admin for user/permission management); native support for Java, Spring Boot, Jakarta EE, and Quarkus; REST API; plugin architecture; Docker images and Helm charts; PostgreSQL, Oracle, MS SQL, MySQL support . **Tech stack**: Java (main), JavaScript (Vue 3). **Deploy**: Self-hosted (Docker, Helm) or on-premises . **Trade-off**: **Fork of an aging architecture**—Camunda 7's design is proven but not cloud-native like Camunda 8. No Zeebe distributed execution. **Best for**: public sector, regulated enterprises, and any organization running Camunda 7 that needs guaranteed long-term open-source maintenance without migrating to Camunda 8's licensing model.
-
-
-
-- **[Flowable](https://github.com/flowable/flowable-engine)**
-
-  **Cloud-native BPMN, CMMN, and DMN engine suite** (Apache 2.0) — **the strongest alternative to Camunda** for microservice and event-driven architectures, with active development and a modern approach . **Features**: Separate embeddable engines for BPMN, CMMN, and DMN; Spring Boot starter; official Docker images and Helm charts for Kubernetes; web-based Flowable Modeler; comprehensive REST API; rich Java API for orchestrating human or automated processing . **Adoption**: ~5k stars on GitHub; active community . **Tech stack**: Java, Spring Boot. **Deploy**: Self-managed; Docker/Kubernetes ready; can run embedded, as a service, or in the cloud . **Trade-off**: **Smaller community than Camunda**; commercial Flowable Work UI is enterprise-licensed. **Best for**: development teams building cloud-native applications needing lightweight BPMN/CMMN/DMN orchestration with strong Spring Boot and Kubernetes support—especially teams migrating from Activiti .
-
-
-
-- **[Bonita](https://github.com/bonitasoft/bonita-engine)**
-
-  **Full BPM platform with low-code studio** (GPL-2.0 for Community) — **the most complete open-source BPM experience** for business analysts and developers who want a ready-made platform rather than an embeddable engine . **Features**: Visual process modeling (BPMN); form builder; task portal; runtime engine; UI designer; **"zero-coding approach"** with connectors for external system integration; complete API with documentation; ability to add custom connectors . **Tech stack**: Java. **Deploy**: Self-managed. **Trade-off**: **Community vs. Subscription feature boundaries**; heavier than pure engines; less cloud-native than Flowable . **Best for**: organizations wanting a complete BPM suite (modeling + execution + portals) where business analysts can own workflow design without deep coding—especially SMBs and mid-market teams that find Camunda too developer-centric .
-
-
-
-- **[Activiti](https://github.com/Activiti/Activiti)**
-
-  **Lightweight BPMN process engine** (Apache 2.0) — **the original fork ancestor of Flowable**, with a long history and stable community . **Features**: BPMN 2.0 execution; REST API; Spring integration; "super-fast and rock-solid" core; runs in any Java application, server, cluster, or cloud . **Adoption**: ~11k stars, ~7k forks . **Tech stack**: Java. **Deploy**: Self-managed. **Trade-off**: **Development momentum has slowed**—Activiti 7 is based on Spring Boot but cloud-native support is weaker than Camunda 8 or Flowable; DMN/CMMN support is incomplete . **Best for**: teams with existing Activiti deployments or Spring-centric applications needing a proven, simple BPMN engine—**not greenfield adoption** where Flowable is the better Activiti-lineage choice .
-
-
-
-- **[Imixs-Workflow](https://github.com/imixs/imixs-workflow)**
-
-  **Open-source BPM engine with no enterprise edition and no feature limits** (EPL 2.0) — **the most philosophically open BPM engine** in this list . **Features**: BPMN 2.0 process modeling; open interfaces with no vendor lock-in; runs under Eclipse Public License 2.0; **"There is no enterprise edition and no feature limit, and it is free to use in production"**; the vendor builds its own products on the same engine—**no better version kept for themselves** . **Tech stack**: Java. **Deploy**: Self-hosted. **Trade-off**: **Smaller community and ecosystem** than Camunda or Flowable; less documentation and fewer integrations. **Best for**: organizations that want a genuinely unrestricted open-source BPM engine with no commercial upsell—especially those building products on top of the engine and needing clear licensing.
-
-
-
-- **[Joget](https://github.com/jogetworkflow/jw-community)**
-
-  **Open-source AI Agentic Application Development Platform** (license per repo) — **the most low-code-oriented open-source option with emerging AI capabilities** . **Features**: Combines **low-code and no-code** development with AI agents; visual-first approach for business users and developers; workflow automation with human oversight; Generative AI and Agentic AI capabilities; plugin architecture for integration with legacy systems and APIs . **Tech stack**: Java. **Deploy**: Self-hosted. **Trade-off**: **"Not fully polished and some simple tasks still require extra coding"** per Gartner reviewers; not an out-of-the-box solution—requires configuration and development . **Best for**: SMEs wanting a lightweight low-code platform for workflow and data repository with emerging AI features—willing to accept rough edges for flexibility.
-
-
-
-- **[ProcessMaker (Community)](https://github.com/processmaker/processmaker)**
-
-  **Open-source BPM and workflow platform** (AGPL-3.0 for Community) — **the community edition of the commercial ProcessMaker** . **Features**: Process modeling; form builder; case management; REST API; self-hosted deployment. **Tech stack**: PHP (Laravel), Vue.js. **Deploy**: Self-managed (Docker available). **Trade-off**: **Community edition has no commercial support** ; commercial edition offers more features. **Best for**: teams wanting a PHP-based BPM platform with a visual designer and case management—accepting community-only support.
-
-
-
-- **[django-workflow-kit](https://pypi.org/project/django-workflow-kit/)**
-
-  **Workflow and approval engine for Django applications** (MIT) — **the most Django-native open-source workflow solution** for developers building approval workflows into existing applications . **Features**: Declarative workflow, state and transition definitions; **atomic, concurrency-safe transitions**; sequential, parallel, any-of and all-of approvals; **workflow versioning**—immutable numbered definitions that never silently change mid-flight; append-only audit trail and derived timelines; comments and file attachments; extensible conditions (never `eval`); pluggable notification providers (email, webhooks, Slack, Teams); **workflow dashboard** (server-rendered Django app); REST API via DRF; Prometheus metrics; CLI with dry-run simulation and diagnostics . **Tech stack**: Python (Django). **Deploy**: `pip install django-workflow-kit`; add to `INSTALLED_APPS` . **Trade-off**: **Django-specific**—not a standalone BPM platform; no visual BPMN modeler. Approval workflows are code-defined, not drag-and-drop. **Best for**: Django developers who need to add sophisticated approval workflows (invoices, leave requests, document reviews) to an existing application without building an engine from scratch or adopting a heavyweight BPM platform .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Elsa Workflows** — .NET workflow engine (MIT). Cross-platform, plugin architecture, visual + code-defined workflows. **Note**: Strong for system integration and backend automation; **lacks native OA approval features** (no built-in task inbox, approval portal requires custom development) . **Best for**: .NET teams wanting a modern workflow engine for automation, not human approval workflows.
-
-- **Slickflow** — .NET BPMN 2.0 engine. Standard BPMN implementation; supports countersign, or-sign, reject, add-sign. **Note**: Weak built-in form capabilities; lightweight logic still requires code . **Best for**: .NET teams needing BPMN-compliant human approval workflows.
-
-- **jBPM / Apache KIE** — BPM suite with integrated rules engine (Apache 2.0). **Note**: Complex setup; migration to Apache KIE governance underway. **Best for**: processes where business rules and workflows are deeply intertwined.
-
-
-
-**Frameworks for building custom systems**: Combine **CIB seven** for Camunda 7-compatible BPMN execution with **Flowable** for cloud-native microservice orchestration, **Bonita** for low-code business analyst workflows, and **django-workflow-kit** for Django-embedded approvals—creating a BPM stack matched to each team's technical depth and deployment context. **None of these match Nintex's SharePoint integration or ServiceNow's ITSM depth**, but for core process automation, the open-source engines are production-proven at enterprise scale.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Business process platforms handling process data and approvals must comply with data protection regulations (GDPR, CCPA, etc.) and implement appropriate access controls for workflow information.
-
-- **The "BPMN engine" vs. "low-code platform" vs. "embedded workflow library" vs. "checklist tool" distinction is critical.** **Camunda, CIB seven, Flowable, Activiti, and Imixs-Workflow** are **BPMN engines**—they execute standard process models but leave UI and business features to you . **Bonita and Joget** are **low-code platforms**—they provide modeling, forms, and portals out of the box . **django-workflow-kit** is an **embedded library**—it adds approval workflows to Django applications . **Kissflow, Pipefy, and Process Street** are **checklist/workflow SaaS**—simpler than BPMN engines. **Choose based on whether you need standards-based process execution, ready-made UI, or embedded approvals.**
-
-- **Camunda 7 Community Edition is no longer supported by the manufacturer.** **CIB seven is the community fork providing guaranteed long-term maintenance** with 100% compatibility—a drop-in replacement without code changes . **If you are running Camunda 7, CIB seven is the responsible migration path** for teams that do not want to move to Camunda 8's Zeebe architecture and licensing.
-
-- **Flowable is the strongest choice for new cloud-native BPM projects** on the Activiti lineage—Apache 2.0 licensed, active development, full BPMN/DMN/CMMN support, and Docker/Kubernetes ready . **It is the pragmatic middle path** between Camunda 8's power and Activiti's stagnation .
-
-- **Bonita is the best open-source option for business analysts** who want to model processes visually and deploy without deep coding—the "zero-coding approach" with connectors makes it accessible . **The trade-off**: heavier platform, Community vs. Subscription boundaries.
-
-- **django-workflow-kit is not a BPM platform**—it is the right tool for Django developers who need approval workflows (invoice sign-off, leave requests, document review) embedded in their application, with audit trails and versioning, without adopting a separate BPM system .
-
-- **Pricing opacity varies.** Camunda publishes Community vs. Enterprise tiers. Kissflow publishes Basic pricing. Microsoft Power Automate publishes per-user pricing. Nintex, Pipefy, Process Street, ServiceNow, BP Logix, and Fluix require sales contact. **Validate with direct vendor conversations against your process complexity and user count.**
-
-- Self-hosted open-source solutions require proper infrastructure (databases, Java runtimes, container orchestration), security hardening, and ongoing maintenance. **Process engines execute business-critical logic**—ensure your deployment meets your organization's reliability and security requirements before automating production processes.
-
-
+</div>
 
 ---
 
+## 📑 Table of Contents
 
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [💼 Enterprise SaaS Platforms](#-enterprise-saas-platforms)
+- [🔓 Open-Source Process Engines & Frameworks](#-open-source-process-engines--frameworks)
+- [⚖️ Architecture & Selection Matrix](#️-architecture--selection-matrix)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⭐ Star History](#-star-history)
+- [📜 Disclaimer](#-disclaimer)
 
-**Made for developers, process engineers, and organizations building transparent workflow automation solutions.**
+---
 
-Let's make Business Process & Workflow Management more open, data-driven, and process-friendly.
+## 🌐 Sector Overview & Market Dynamics
+
+The global **Business Process Management (BPM) and Intelligent Workflow Automation** market is estimated at **$16.0B – $21.2B in 2025** and projected to exceed **$26.6B by 2026**, expanding at a robust compound annual growth rate (CAGR) of **12% to 17%** driven by enterprise digital transformation, cloud migrations, and agentic AI integration.
+
+The sector is **moderately concentrated at the top with a fragmented long tail**: mega-cap tech giants and specialized stalwarts (such as Microsoft, ServiceNow, and Atlassian) capture high-value enterprise IT, ERP, and ITSM automation contracts, while an active, fragmented ecosystem of agile low-code vendors, niche vertical platforms, and open-source orchestrators rapidly innovate across mid-market processes, developer microservices, and AI-first workflows.
+
+---
+
+## 💼 Enterprise SaaS Platforms
+
+Below is a breakdown of category-leading Business Process & Workflow Management SaaS products, sorted descending by company scale (market capitalization / valuation):
+
+| Platform | Company Scale (Valuation / Revenue) | Starting Pricing (Specific Tier) | Free Tier / Trial Limits | Core Specialty & Best For |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Power Automate](https://powerautomate.microsoft.com/)** | **~$3.85T Market Cap** (~$281B Rev) | **$15/user/month** (Power Automate Premium); **$150/bot/month** (Hosted Process plan) | **Included with Microsoft 365 / Windows** (Standard connectors only; capped at 6,000 actions/day; no premium HTTP/DB connectors) | Seamless workflow automation across Microsoft 365, Teams, Azure, and 1,000+ business connectors. |
+| **[ServiceNow Workflow](https://www.servicenow.com/)** | **~$160B Market Cap** (~$13.3B Rev) | **~$70 – $100/user/month** (estimated starting fulfiller tier for ITSM / Flow Designer bundles; annual contract) | **No Free Tier & No Self-Serve Free Trial** (Guided demo/proof-of-concept sandbox available via enterprise sales only) | Mission-critical enterprise process automation, ITSM lifecycle workflows, and cross-department digital services. |
+| **[Jira Workflow](https://www.atlassian.com/software/jira)** | **~$45B Market Cap** (~$5.2B Rev) | **$7.75/user/month** (Standard plan for 11+ users; volume discounts scale with user count) | **Free Forever Tier**: Max 10 users, 2 GB total file storage, 100 automation rule runs/month, 100 notification emails/day | Issue tracking, software development lifecycle pipelines, and multi-step team approval workflows. |
+| **[Nintex](https://www.nintex.com/)** | **~$2.0B Valuation** (~$240M Rev) | **~$1,250 – $2,080/month** (billed annually, standard entry contracts typically start around $15,000–$25,000/year) | **30-Day Free Trial** (Full workflow, forms, and DocGen access with up to 30 active workflows; no credit card required) | Heavyweight digital process automation (DPA), document generation, and deep SharePoint/Office 365 migrations. |
+| **[Camunda (SaaS)](https://camunda.com/)** | **~$1.0B+ Valuation** (~$200M ARR) | **$49/month** (Starter tier for cloud process orchestration and human task management) | **30-Day Free Cloud Trial** (Full Zeebe process execution); transitions to permanent **Free Modeler tier** (unlimited BPMN/DMN modeling, 5 seats, 0 cloud task executions) | Developer-centric end-to-end process orchestration across distributed microservices, APIs, and human workers. |
+| **[Kissflow](https://kissflow.com/)** | **~$150M Valuation** (~$40M ARR) | **$1,500/month** (Basic tier, includes core workflows, forms, and portal for up to 30 internal users) | **No Free Tier** (14-day guided proof-of-concept trial available upon sales qualification; requires business domain email) | Visual no-code/low-code workflow creation and procurement/HR approval routing for non-technical business teams. |
+| **[Pipefy](https://www.pipefy.com/)** | **~$140M Valuation** (~$30M ARR) | **$20/user/month** (Business tier billed annually; minimum seat commitments apply) | **Free Forever Starter Plan**: Max 10 users, 5 active pipes (processes), 500 database records, 2 GB storage, 15 automation runs/month | Kanban-style visual process management, request tracking portals, and operational workflows for HR and finance. |
+| **[BP Logix](https://www.bplogix.com/)** | **~$30M – $50M Valuation** (~$12M Rev) | **~$1,200/month** (or ~$50/user/month baseline subscription for Process Director cloud tier) | **No Free Tier** (Custom guided POC / trial sandbox provided through enterprise sales consultation) | Compliance-focused BPM, patented process timeline management, and audit-heavy workflows in regulated sectors. |
+| **[Process Street](https://www.process.st/)** | **~$25M – $40M Valuation** (~$10M ARR) | **$100/month** (Startup flat tier; Pro tier starts at $25/user/month with annual billing) | **14-Day Free Trial** (Full access to Pro features, workflows, and forms; max 5 MB upload per file; no credit card required) | Checklist-driven recurring process management, onboarding procedures, and standard operating procedure (SOP) tracking. |
+| **[Fluix](https://fluix.io/)** | **~$15M – $25M Valuation** (~$8M Rev) | **$29/user/month** (Crews tier, minimum 10 users = $290/month minimum commitment) | **14-Day Free Trial** (Full mobile and web operations access, form builder, and digital signatures; no credit card required) | Mobile-first workflow automation, field inspection forms, and document approval routing for distributed frontline teams. |
+
+---
+
+## 🔓 Open-Source Process Engines & Frameworks
+
+A curated directory of production-grade, open-source workflow and BPM projects, sorted descending by GitHub stargazers:
+
+| Project | GitHub Stars | Primary Stack | License | Description & Architectural Highlights |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Temporal](https://github.com/temporalio/temporal)** | [![GitHub stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers) | Go / Polyglot SDKs | MIT | **Resilient microservice execution platform.** Code-as-workflows paradigm that guarantees state durability, automatic retries, and distributed transaction orchestration. |
+| **[Kestra](https://github.com/kestra-io/kestra)** | [![GitHub stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers) | Java / Vue.js | Apache-2.0 | **Event-driven declarative orchestrator.** YAML-defined workflows with rich built-in web UI, plugin ecosystem, and real-time execution monitoring for business and data pipelines. |
+| **[Netflix Conductor (OSS)](https://github.com/conductor-oss/conductor)** | [![GitHub stars](https://img.shields.io/github/stars/conductor-oss/conductor?style=social&color=white)](https://github.com/conductor-oss/conductor/stargazers) | Java | Apache-2.0 | **Distributed microservice orchestration engine.** Scalable workflow definitions in JSON/code with high throughput, task queues, and visual state tracking. |
+| **[Automatisch](https://github.com/automatisch/automatisch)** | [![GitHub stars](https://img.shields.io/github/stars/automatisch/automatisch?style=social&color=white)](https://github.com/automatisch/automatisch/stargazers) | Node.js / React | AGPL-3.0 | **Self-hosted Zapier alternative.** Open-source business automation platform for connecting enterprise cloud applications without storing sensitive data with third parties. |
+| **[Activiti](https://github.com/Activiti/Activiti)** | [![GitHub stars](https://img.shields.io/github/stars/Activiti/Activiti?style=social&color=white)](https://github.com/Activiti/Activiti/stargazers) | Java (Spring Boot) | Apache-2.0 | **Battle-tested BPMN 2.0 execution engine.** Lightweight, embeddable business process suite running in any Java runtime or Kubernetes cluster. |
+| **[Flowable](https://github.com/flowable/flowable-engine)** | [![GitHub stars](https://img.shields.io/github/stars/flowable/flowable-engine?style=social&color=white)](https://github.com/flowable/flowable-engine/stargazers) | Java (Spring Boot) | Apache-2.0 | **Modern BPMN, CMMN, and DMN engine suite.** First-class Spring Boot starter, modular REST APIs, and high-performance event-driven process execution. |
+| **[Elsa Workflows](https://github.com/elsa-workflows/elsa)** | [![GitHub stars](https://img.shields.io/github/stars/elsa-workflows/elsa?style=social&color=white)](https://github.com/elsa-workflows/elsa/stargazers) | .NET (C#) / TypeScript | MIT | **Native .NET workflow management engine.** Visual designer and code-centric orchestration library for .NET applications, async background tasks, and event routing. |
+| **[Workflow Core](https://github.com/danielgerlag/workflow-core)** | [![GitHub stars](https://img.shields.io/github/stars/danielgerlag/workflow-core?style=social&color=white)](https://github.com/danielgerlag/workflow-core/stargazers) | .NET (C#) | MIT | **Lightweight embeddable workflow engine for .NET.** Fluent API, persistent state storage, compensation steps, and concurrency-safe distributed steps. |
+| **[jBPM (Apache KIE)](https://github.com/kiegroup/jbpm)** | [![GitHub stars](https://img.shields.io/github/stars/kiegroup/jbpm?style=social&color=white)](https://github.com/kiegroup/jbpm/stargazers) | Java | Apache-2.0 | **Comprehensive business automation suite.** Integrates BPMN 2.0 process flow with Drools business rules, decision tables (DMN), and complex event processing. |
+| **[Bonita Engine](https://github.com/bonitasoft/bonita-engine)** | [![GitHub stars](https://img.shields.io/github/stars/bonitasoft/bonita-engine?style=social&color=white)](https://github.com/bonitasoft/bonita-engine/stargazers) | Java | GPL-2.0 | **Low-code BPM platform.** Provides an all-in-one studio, visual form designer, BPMN execution engine, and customizable user portal for business apps. |
+| **[Joget DX Community](https://github.com/jogetworkflow/jw-community)** | [![GitHub stars](https://img.shields.io/github/stars/jogetworkflow/jw-community?style=social&color=white)](https://github.com/jogetworkflow/jw-community/stargazers) | Java | GPL-3.0 | **Next-gen open-source low-code application platform.** Merges visual process workflows, form builders, and AI-assisted agentic orchestration. |
+| **[ProcessMaker Community](https://github.com/processmaker/processmaker)** | [![GitHub stars](https://img.shields.io/github/stars/processmaker/processmaker?style=social&color=white)](https://github.com/processmaker/processmaker/stargazers) | PHP (Laravel) / Vue.js | AGPL-3.0 | **Open-source web-based BPM and workflow platform.** Drag-and-drop process modeling, electronic forms, document approval routings, and case management. |
+| **[Imixs-Workflow](https://github.com/imixs/imixs-workflow)** | [![GitHub stars](https://img.shields.io/github/stars/imixs/imixs-workflow?style=social&color=white)](https://github.com/imixs/imixs-workflow/stargazers) | Java (Jakarta EE) | EPL-2.0 | **Pure 100% open-source BPM engine.** No enterprise tiers, no paywalled limits; strictly adheres to BPMN 2.0 human-centric workflow standards. |
+| **[CIB seven](https://github.com/cibseven/cibseven)** | [![GitHub stars](https://img.shields.io/github/stars/cibseven/cibseven?style=social&color=white)](https://github.com/cibseven/cibseven/stargazers) | Java / Vue.js | Apache-2.0 | **Guaranteed long-term Camunda 7 community fork.** Drop-in BPMN 2.0 and DMN 1.3 engine replacement with modern Cockpit, Admin, and Tasklist web interfaces. |
+
+---
+
+### 🧩 Specialized Workflow Libraries & Modules
+
+- **[django-workflow-kit](https://pypi.org/project/django-workflow-kit/)** *(Python / Django)* — Declarative workflow, state machine, and multi-tier approval framework for Django. Features immutable versioned definitions, concurrency safety, and audit logs.
+- **[Slickflow](https://github.com/bpm-platform/slickflow)** *(.NET)* — BPMN 2.0 based approval workflow engine supporting countersigning, or-sign, branch jumps, and refund approval trees.
+- **[Serverless Workflow Spec](https://github.com/serverlessworkflow/specification)** *(CNCF)* — Vendor-neutral, open-standard specification for event-driven workflow orchestrations across multi-cloud and serverless ecosystems.
+
+---
+
+## ⚖️ Architecture & Selection Matrix
+
+When selecting a business process and workflow platform, evaluate your organization's technical depth, compliance boundaries, and user persona:
+
+```mermaid
+flowchart TD
+    Start["Workflow Automation Requirement"] --> Scope{"What type of process?"}
+    
+    Scope -->|"Developer Microservices / Code"| CodeChoice["Temporal / Conductor / Kestra"]
+    Scope -->|"Enterprise BPMN 2.0 Standards"| BPMNChoice{"Self-Hosted or Cloud?"}
+    Scope -->|"No-Code Business Portals & Forms"| LowCodeChoice{"SaaS or Open Source?"}
+    
+    BPMNChoice -->|"Self-Hosted Open Source"| Flowable["Flowable / CIB seven / Activiti"]
+    BPMNChoice -->|"Enterprise Managed SaaS"| Camunda["Camunda 8 / ServiceNow"]
+    
+    LowCodeChoice -->|"Self-Hosted Open Source"| Bonita["Bonita / Joget DX / Automatisch"]
+    LowCodeChoice -->|"Turnkey SaaS"| PowerAutomate["Power Automate / Pipefy / Kissflow"]
+```
+
+- **Standards-First BPMN Engines (`Flowable`, `CIB seven`, `Camunda`):** Best when business analysts model processes in standard BPMN 2.0 XML while engineering teams implement service tasks, message events, and database persistence.
+- **Resilient Code-As-Workflows (`Temporal`, `Conductor`):** Best for distributed systems, microservices, and backend engineers who prefer writing standard code (Go, Java, Python, TypeScript) rather than managing complex XML diagrams.
+- **Low-Code Business Applications (`Bonita`, `Joget`, `Kissflow`, `Pipefy`):** Best for departmental operations (HR onboarding, finance approvals, purchase orders) where non-technical stakeholders require instant web forms, notification emails, and audit logs.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Please follow these steps:
+
+1. **Fork** this repository.
+2. Create a focused branch (`git checkout -b feature/add-new-workflow-engine`).
+3. Add the project or SaaS tool with factual, verified details (pricing, limits, stack, and direct links).
+4. Commit your changes (`git commit -m 'Add ProjectName to workflow list'`).
+5. Push to the branch (`git push origin feature/add-new-workflow-engine`).
+6. Submit a **Pull Request** detailing why the tool qualifies.
+
+---
+
+## 💖 Support & Sponsorship
+
+If this curated repository saved you hours of research or helped optimize your company's workflow stack:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork it** and contribute your favorite open-source process engines.
+- 📢 **Share it** on LinkedIn, X/Twitter, or your team's internal Slack.
+- ☕ **Support the maintainer**: Buy me a coffee on the [**GitHub Sponsors Dashboard**](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Business-Process-Workflow-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Business-Process-Workflow-Management&type=date&legend=top-left)
+
+---
+
+## 📜 Disclaimer
+
+- This repository is a community-curated, independent index. All product names, logos, and brands are property of their respective owners.
+- Business process automation tools handling sensitive corporate data and approval authorizations must comply with relevant data governance regulations (GDPR, HIPAA, SOC 2). Validate security configurations before deploying to production.
+- Pricing, seat counts, and free tier limitations reflect publicly disclosed data as of 2026 and may change over time. Verify directly with vendors for active production requirements.
